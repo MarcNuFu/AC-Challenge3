@@ -1,2 +1,5 @@
 # AC-Challenge3
-Third optimization challenge from Computer Architecture
+
+Tercer reto de optimización de la asignatura Arquitectura de computadores
+
+Speed-up = 4.52x
