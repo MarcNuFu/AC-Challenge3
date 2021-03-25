@@ -1,0 +1,31 @@
+Compile CH3.c for CPU execution with gcc -O3 version 9.2 in file ./CH3.O3
+
+Challenge #3: Simulate 1000 steps on 1-D vector of 10000000 elements with L=1.2345600000e-01
+
+CheckSum = -1.6088136772e+17
+Some values: (0)=1234567800000.0000000000, (1000000)=3141600.0000000000, (2000000)=6283200.0000000009, (3000000)=9424800.0000000000, (4000000)=12566400.0000000000, (5000000)=15708000.0000000000, (6000000)=18849600.0000000000, (7000000)=21991199.9999999963, (8000000)=25132800.0000000037, (9000000)=28274399.9999999963, (10000000)=-11719350692211774.0000000000
+
+ Performance counter stats for './CH3.O3':
+
+         35.855,16 msec task-clock                #    0,997 CPUs utilized          
+             1.942      context-switches          #    0,054 K/sec                  
+                 2      cpu-migrations            #    0,000 K/sec                  
+               916      page-faults               #    0,026 K/sec                  
+   121.199.745.187      cycles                    #    3,380 GHz                    
+    89.589.094.192      instructions              #    0,74  insn per cycle         
+     3.159.534.870      branches                  #   88,119 M/sec                  
+         4.029.037      branch-misses             #    0,13% of all branches        
+
+      35,961167891 seconds time elapsed
+
+      35,783528000 seconds user
+       0,065844000 seconds sys
+
+
+
+Challenge #3: Simulate 1000 steps on 1-D vector of 10000000 elements with L=1.2345600000e-01
+
+CheckSum = -1.6088136772e+17
+Some values: (0)=1234567800000.0000000000, (1000000)=3141600.0000000000, (2000000)=6283200.0000000009, (3000000)=9424800.0000000000, (4000000)=12566400.0000000000, (5000000)=15708000.0000000000, (6000000)=18849600.0000000000, (7000000)=21991199.9999999963, (8000000)=25132800.0000000037, (9000000)=28274399.9999999963, (10000000)=-11719350692211774.0000000000
+[ perf record: Woken up 23 times to write data ]
+[ perf record: Captured and wrote 5,684 MB perf.data (148967 samples) ]
